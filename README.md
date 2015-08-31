@@ -8,7 +8,7 @@ Make sure [unarchive](https://docs.ansible.com/ansible/unarchive_module.html) wo
 ```yml
 - hosts: webservers
   roles:
-    - role: mediapop.unarchive
+    - role: Celc.unarchive
 ```
         
 ## Example as a dependency in your meta
@@ -17,7 +17,7 @@ Make sure [unarchive](https://docs.ansible.com/ansible/unarchive_module.html) wo
 ```yml
 ---
 dependencies:
-- role: mediapop.unarchive
+- role: Celc.unarchive
 ```
 
 ## License
